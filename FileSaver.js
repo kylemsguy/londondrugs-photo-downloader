@@ -4,7 +4,7 @@
  *
  *  By Eli Grey, http://eligrey.com
  *  License: X11/MIT
- *    See LICENSE.md
+ *    See LICENSE-FileSaver.md
  */
 
 /*global self */
