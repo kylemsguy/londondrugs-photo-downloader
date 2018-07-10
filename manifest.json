@@ -7,8 +7,19 @@
       "matches": [
         "https://photolab.londondrugs.com/prints/*"
       ],
-      "js": ["content.js"],
+      "js": [
+          "FileSaver.js",
+          "jszip.min.js", 
+          "jszip-utils.min.js", 
+          "content.js"
+        ],
       "run_at": "document_end"
     }
-  ]
+  ],
+  "permissions": [
+    "downloads",
+    "storage",
+    "unlimitedStorage"
+  ],
+  "web_accessible_resources": ["download-all-button.js"]
 }
