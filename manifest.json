@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "London Drugs Album Downloader",
+  "version": "0.1",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://photolab.londondrugs.com/prints/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
